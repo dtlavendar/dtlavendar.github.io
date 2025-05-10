@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact | My Minimal Space</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <nav>
+                    <div class="logo">YourName</div>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li>
+                            <a href="contact.html" class="active">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <section class="contact">
+                    <h1>Get in Touch</h1>
+                    <p>
+                        Feel free to reach out for collaborations or just to say
+                        hi!
+                    </p>
+
+                    <div class="contact-grid">
+                        <div>
+                            <h3>Contact Information</h3>
+                            <p>Here are a few ways you can reach me:</p>
+
+                            <div class="contact-info">
+                                <p>
+                                    <strong>Email:</strong><br />
+                                    <a href="mailto:your.email@example.com"
+                                        >your.email@example.com</a
+                                    >
+                                </p>
+
+                                <p>
+                                    <strong>Location:</strong><br />
+                                    Your City, Your Country
+                                </p>
+
+                                <p>
+                                    <strong>Social Media:</strong><br />
+                                    You can also connect with me on any of the
+                                    social platforms linked below.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3>Send a Message</h3>
+                            <form class="contact-form">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        required
+                                    />
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        required
+                                    />
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input
+                                        type="text"
+                                        id="subject"
+                                        name="subject"
+                                        required
+                                    />
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea
+                                        id="message"
+                                        name="message"
+                                        required
+                                    ></textarea>
+                                </div>
+
+                                <button type="submit" class="button">
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub">GitHub</a>
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" aria-label="Twitter">Twitter</a>
+                </div>
+                <p>
+                    © <span id="year"></span> Your Name. All rights reserved.
+                </p>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
