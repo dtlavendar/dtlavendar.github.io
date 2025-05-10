@@ -380,6 +380,10 @@ footer {
 
     .button-container {
         flex-direction: column;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .about-content {
