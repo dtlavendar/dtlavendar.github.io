@@ -243,6 +243,9 @@ nav {
     padding: var(--section-padding);
 }
 
+.my-header-links {
+    border-radius: 10px;
+}
 .about-content {
     display: flex;
     gap: 4rem;
